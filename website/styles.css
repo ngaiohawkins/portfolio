@@ -77,7 +77,7 @@ p {
 
 #home-button {
     position: absolute;
-    margin-left: 26.5%;
+    margin-left: 25%;
     margin-top: 22.5%;
     height: 50px;
     width: 125px;
@@ -204,7 +204,7 @@ p {
 
 .scenery {
     background-color: #B08EDE;
-    height: 70em;
+    height: 73em;
 }
 
 #scenery-title {
