@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Website</title>
+        <link rel="stylesheet" href="styles.css">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+        </style>
+    </head>
+
+    <body>
+        <header>
+            <a href="index.html"><h1 class="title1">Ngaio Hawkins</h1></a>
+            <div class="flex-bar">
+                <nav class="navbar">
+                    <a href="index.html" class="link">Home</a>
+                    <a href="projects.html" class="link">Projects</a>
+                    <a href="about.html" class="link">About</a>
+                    <a href="contact.html" class="link">Contact</a>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <div class="home">
+                <h1 id="home-title">Ngaio Hawkins</h1>
+                <p id="home-desc">Computer Science Major.</p>
+                <a href="about.html"><button id="home-button">Learn More</button></a>
+                <img id="computer-pic" src="computer.jpg" alt="computer"> 
+            </div>
+
+            <h1 id="projects-title">Projects</h1>
+            <div class="media-gallery">
+                <article class="card">
+                    <header>
+                        <h2>Sudoku Solver</h2>
+                    </header>
+                    <img src="proj1.png" alt="Sudoku Solver">
+                    <div class="card-content">
+                        <p>Solves any given Sudoku board using DFS (Depth First Search) - an AI technique used for traversing a tree or graph data structure.</p>
+                    </div>
+                    <footer>
+                    </footer>
+                </article>
+
+                <article class="card">
+                    <header>
+                        <h2>OpenGL Brick Breaker</h2>
+                    </header>
+                    <img src="proj2.png" alt="Bricker Breaker">
+                    <div class="card-content">
+                        <p>A game where you move a brick around in order to hit a ball at other bricks which utilizes the JS OpenGL Library.</p>
+                    </div>
+                    <footer>
+                    </footer>
+                </article>
+
+                <article class="card">
+                    <header>
+                        <h2>Cave Runner</h2>
+                    </header>
+                    <img src="proj3.png" alt="Cave Runner">
+                    <div class="card-content">
+                        <p>A different version of the Chrome dinosaur game that uses HTML DOM in conjuction with CSS styling.</p>
+                    </div>
+                    <footer>
+                    </footer>
+                </article> 
+            </div>
+            
+            <div class="projects-button">
+                <a href="projects.html"><button id="all-projects">Learn More</button></a>
+            </div>
+
+            <div class="scenery">
+                <h1 id="scenery-title">Potsdam Scenery</h1>
+                <div class="gallery">
+                    <img src="gallery1.jpeg" alt="Photo 1" class="thumbnail">
+                    <img src="gallery2.jpeg" alt="Photo 2" class="thumbnail">
+                    <img src="gallery3.jpeg" alt="Photo 3" class="thumbnail">
+                    <img src="gallery6.jpeg" alt="Photo 4" class="thumbnail">
+                    <img src="gallery4.jpeg" alt="Photo 5" class="thumbnail">
+                    <img src="gallery5.jpeg" alt="Photo 6" class="thumbnail">
+                </div>
+                <div id="lightbox" class="lightbox">
+                    <span class="close">&times;</span>
+                    <img id="lightbox-img" src="" alt="">
+                    <span class="prev">&#10094;</span>
+                    <span class="next">&#10095;</span>
+                </div>
+            </div>
+        </main>
+    </body>
+
+    <footer class="home-bottom">
+        <p id="footer-text">Copyright &copy; Ngaio Hawkins</p>
+    </footer>
+
+    <script src="script.js"></script>
+</html>
