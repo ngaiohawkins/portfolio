@@ -109,7 +109,7 @@ p {
     font-size: 4.5em;
     padding-top: 50px;
     margin: 0;
-    height: 2em;
+    height: 1.5em;
     background-color: #D5F8E5;
     color: #7343A7;
 }
@@ -118,10 +118,11 @@ p {
     position: relative;
     background-color: #D5F8E5;
     height: 30em;
-    width: 100%;
+    width: 95%;
     display: grid;
     grid-template-columns: repeat(3, minmax(150px, 1fr));
     grid-gap: 40px;
+    padding: 36px;
 }
 
 .card {
@@ -169,8 +170,8 @@ p {
 
 .projects-button {
     position: relative;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 30px;
+    padding-bottom: 65px;
     margin: 0;
     height: 3em;
     background-color: #D5F8E5;
@@ -435,10 +436,11 @@ p {
 .media-gallery-2 {
     position: relative;
     height: 30em;
-    width: 100%;
+    width: 95%;
     display: grid;
     grid-template-columns: repeat(3, minmax(150px, 1fr));
     grid-gap: 40px;
+    padding: 36px
 }
 
 .projects-title-2 {
