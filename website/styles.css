@@ -102,6 +102,11 @@ p {
     border-radius: 25px;
 }
 
+.glow {
+    text-shadow: 3px 3px 2px #7343A7;
+    transform: scale(1.05);
+}
+
 #projects-title {
     position: relative;
     text-align: center;
